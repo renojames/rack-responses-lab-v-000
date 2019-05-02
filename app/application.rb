@@ -5,9 +5,11 @@ class Application
 
     resp = Rack::Response.new
 
-    time = Kernel.rand(1..24)
+    #time = Kernel.rand(1..24)
 
-    resp.write time
+    time = Time.now
+
+    
 
     resp.finish
   end
