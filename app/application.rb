@@ -10,9 +10,9 @@ class Application
     #time = Time.now
 
     if time > 12
-      resp.write "It is the afternoon."
+      resp.write "It is the Afternoon."
     else
-      resp.write "It is the morning."
+      resp.write "It is the Morning."
     end
 
     #resp.write time
