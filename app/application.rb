@@ -15,7 +15,7 @@ class Application
       resp.write "It is the morning."
     end
 
-    resp.write time
+    #resp.write time
 
     resp.finish
   end
