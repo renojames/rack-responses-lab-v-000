@@ -9,7 +9,7 @@ class Application
 
     time = Time.now
 
-    
+
 
     resp.finish
   end
