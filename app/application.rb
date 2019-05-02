@@ -5,15 +5,15 @@ class Application
 
     resp = Rack::Response.new
 
-    #time = Kernel.rand(1..24)
+    time = Kernel.rand(1..24)
 
-    time = Time.now
+    #time = Time.now
 
-    #if time > 12
-    #  resp.write "It is the afternoon."
-    #else
-    #  resp.write "It is the morning."
-    #end
+    if time > 12
+      resp.write "It is the afternoon."
+    else
+      resp.write "It is the morning."
+    end
 
     resp.write time
 
